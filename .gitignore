@@ -1,0 +1,14 @@
+/.idea/
+/.vagrant/
+.DS_Store
+*.log
+sitemap*
+/www/bitrix/cache/
+/www/bitrix/managed_cache/
+/www/bitrix/.settings
+/www/bitrix/php_interface/
+/www/bitrix/stack_cache/
+/www/bitrix/tmp/
+/www/bitrix/backup/
+/www/upload/tmp/
+/www/upload/resize_cache/
