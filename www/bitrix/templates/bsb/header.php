@@ -60,7 +60,7 @@
                     </div>
                 </div>
             </div>
-            <p>Please wait...</p>
+            <p>Пожалуйста, подождите...</p>
         </div>
     </div>
 
@@ -70,7 +70,7 @@
         <div class="search-icon">
             <i class="material-icons">search</i>
         </div>
-        <input type="text" placeholder="START TYPING...">
+        <input type="text" placeholder="Введите текст...">
         <div class="close-search">
             <i class="material-icons">close</i>
         </div>
@@ -343,7 +343,25 @@
             <!-- Menu -->
             <!-- Menu -->
             <div class="menu">
-                <ul class="list">
+                <?php
+                    $APPLICATION->IncludeComponent(
+                        "bitrix:menu",
+                        "left",
+                        [
+                            "ROOT_MENU_TYPE"        => "left",
+                            "MENU_CACHE_TYPE"       => "A",
+                            "MENU_CACHE_TIME"       => "3600",
+                            "MENU_CACHE_USE_GROUPS" => "Y",
+                            "MAX_LEVEL"             => "3",
+                            "CHILD_MENU_TYPE"       => "left-dop",
+                            "USE_EXT"               => "Y",
+                            "DELAY"                 => "N",
+                            "ALLOW_MULTI_SELECT"    => "N",
+                        ],
+                        false
+                    );
+                ?>
+                <!--<ul class="list">
                     <li class="header">MAIN NAVIGATION</li>
                     <li>
                         <a href="../../index.html">
@@ -677,7 +695,7 @@
                             <span>Information</span>
                         </a>
                     </li>
-                </ul>
+                </ul>-->
             </div>
             <!-- #Menu -->
             <!-- Footer -->
