@@ -1,29 +1,29 @@
-2017-03-21 18:38:36 -  - exec CUpdateClientPartner::SearchModulesEx
-2017-03-21 18:38:36 -  - exec CUpdateClientPartner::__CollectRequestData
-2017-03-21 18:38:36 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.5.9-1ubuntu4.17&NGINX=Y&dbv=5.5.53&instm=main%2C16.5.4%2CY%3Bfileman%2C16.5.4%2CN%3Bseo%2C16.0.3%2CN%3Bsubscribe%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bmobileapp%2C16.0.5%2CN%3Bsocialservices%2C16.5.4%2CN%3Bblog%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bperfmon%2C16.0.0%2CN%3Bphotogallery%2C16.0.1%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bform%2C15.0.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Biblock%2C16.5.2%2CN%3Bsearch%2C16.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN&search_module_id=&search_module=&search_category=7%2C14&search_type=&search_order=DESC&search_order_by=SORT&search_page=1&SUPD_SRS=RU&SUPD_CMP=N
-2017-03-21 18:38:36 -  - exec CUpdateClientPartner::GetHTTPPage
-2017-03-21 18:38:38 -  - TIME SearchModulesEx(request) 2.09 sec
-2017-03-21 18:38:38 -  - exec CUpdateClientPartner::ParseServerData
-2017-03-21 18:38:52 -  - exec CUpdateClientPartner::LoadModulesUpdates
-2017-03-21 18:38:52 -  - exec CUpdateClientPartner::__CollectRequestData
-2017-03-21 18:38:52 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.5.9-1ubuntu4.17&NGINX=Y&dbv=5.5.53&instm=main%2C16.5.4%2CY%3Bfileman%2C16.5.4%2CN%3Bseo%2C16.0.3%2CN%3Bsubscribe%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bmobileapp%2C16.0.5%2CN%3Bsocialservices%2C16.5.4%2CN%3Bblog%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bperfmon%2C16.0.0%2CN%3Bphotogallery%2C16.0.1%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bform%2C15.0.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Biblock%2C16.5.2%2CN%3Bsearch%2C16.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN&reqm=nsandrey.emptyinstall&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
-2017-03-21 18:38:52 -  - exec CUpdateClientPartner::GetHTTPPage
-2017-03-21 18:38:52 -  - TIME LoadModulesUpdates(request) 0.42 sec
-2017-03-21 18:38:52 -  - exec CUpdateClientPartner::ParseServerData
-2017-03-21 18:38:52 - S - STEP
-2017-03-21 18:38:52 - LM4W01 - loadModule4Wizard-Step
-2017-03-21 18:38:52 -  - exec CUpdateClientPartner::LoadModulesUpdates
-2017-03-21 18:38:52 -  - exec CUpdateClientPartner::ParseServerData
-2017-03-21 18:38:52 -  - loadFile
-2017-03-21 18:38:53 - U - RETURN
-2017-03-21 18:38:53 -  - exec CUpdateClientPartner::UnGzipArchive
-2017-03-21 18:38:53 -  - TIME UnGzipArchive 0.167 sec
-2017-03-21 18:38:53 -  - TIME UpdateStepModules 0.46 sec
-2017-03-21 18:38:54 -  - exec CUpdateClientPartner::LoadModulesUpdates
-2017-03-21 18:38:54 -  - exec CUpdateClientPartner::__CollectRequestData
-2017-03-21 18:38:54 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.5.9-1ubuntu4.17&NGINX=Y&dbv=5.5.53&instm=main%2C16.5.4%2CY%3Bfileman%2C16.5.4%2CN%3Bseo%2C16.0.3%2CN%3Bsubscribe%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bmobileapp%2C16.0.5%2CN%3Bsocialservices%2C16.5.4%2CN%3Bblog%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bperfmon%2C16.0.0%2CN%3Bphotogallery%2C16.0.1%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bform%2C15.0.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Biblock%2C16.5.2%2CN%3Bsearch%2C16.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bcompression%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN&reqm=nsandrey.emptyinstall&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
-2017-03-21 18:38:54 -  - exec CUpdateClientPartner::GetHTTPPage
-2017-03-21 18:38:54 -  - TIME LoadModulesUpdates(request) 0.333 sec
-2017-03-21 18:38:54 -  - exec CUpdateClientPartner::ParseServerData
-2017-03-21 18:38:54 - STEP - Finish - NOUPDATES
-2017-03-21 18:38:54 - LM4W03 - Finish - NOUPDATES
+2017-06-05 12:46:15 -  - exec CUpdateClientPartner::SearchModulesEx
+2017-06-05 12:46:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-06-05 12:46:15 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.15-0ubuntu0.16.04.4&NGINX=Y&dbv=5.6.36&instm=main%2C16.5.4%2CY%3Bfileman%2C16.5.4%2CN%3Bseo%2C16.0.3%2CN%3Bsubscribe%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bmobileapp%2C16.0.5%2CN%3Bsocialservices%2C16.5.4%2CN%3Bblog%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bperfmon%2C16.0.0%2CN%3Bphotogallery%2C16.0.1%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bform%2C15.0.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Biblock%2C16.5.2%2CN%3Bsearch%2C16.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN&search_module_id=&search_module=&search_category=7%2C14&search_type=&search_order=DESC&search_order_by=SORT&search_page=1&SUPD_SRS=RU&SUPD_CMP=N
+2017-06-05 12:46:15 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-06-05 12:46:28 -  - TIME SearchModulesEx(request) 12.472 sec
+2017-06-05 12:46:28 -  - exec CUpdateClientPartner::ParseServerData
+2017-06-05 12:51:19 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-06-05 12:51:19 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-06-05 12:51:19 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.15-0ubuntu0.16.04.4&NGINX=Y&dbv=5.6.36&instm=main%2C16.5.4%2CY%3Bfileman%2C16.5.4%2CN%3Bseo%2C16.0.3%2CN%3Bsubscribe%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bmobileapp%2C16.0.5%2CN%3Bsocialservices%2C16.5.4%2CN%3Bblog%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bperfmon%2C16.0.0%2CN%3Bphotogallery%2C16.0.1%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bform%2C15.0.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Biblock%2C16.5.2%2CN%3Bsearch%2C16.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN&reqm=nsandrey.emptyinstall&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-06-05 12:51:19 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-06-05 12:51:19 -  - TIME LoadModulesUpdates(request) 0.458 sec
+2017-06-05 12:51:19 -  - exec CUpdateClientPartner::ParseServerData
+2017-06-05 12:51:19 - S - STEP
+2017-06-05 12:51:19 - LM4W01 - loadModule4Wizard-Step
+2017-06-05 12:51:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-06-05 12:51:20 -  - exec CUpdateClientPartner::ParseServerData
+2017-06-05 12:51:20 -  - loadFile
+2017-06-05 12:51:20 - U - RETURN
+2017-06-05 12:51:20 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-06-05 12:51:20 -  - TIME UnGzipArchive 0.007 sec
+2017-06-05 12:51:20 -  - TIME UpdateStepModules 0.014 sec
+2017-06-05 12:51:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-06-05 12:51:20 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-06-05 12:51:20 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.15-0ubuntu0.16.04.4&NGINX=Y&dbv=5.6.36&instm=main%2C16.5.4%2CY%3Bfileman%2C16.5.4%2CN%3Bseo%2C16.0.3%2CN%3Bsubscribe%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bmobileapp%2C16.0.5%2CN%3Bsocialservices%2C16.5.4%2CN%3Bblog%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bperfmon%2C16.0.0%2CN%3Bphotogallery%2C16.0.1%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bform%2C15.0.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Biblock%2C16.5.2%2CN%3Bsearch%2C16.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bcompression%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN&reqm=nsandrey.emptyinstall&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-06-05 12:51:20 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-06-05 12:51:20 -  - TIME LoadModulesUpdates(request) 0.475 sec
+2017-06-05 12:51:20 -  - exec CUpdateClientPartner::ParseServerData
+2017-06-05 12:51:20 - STEP - Finish - NOUPDATES
+2017-06-05 12:51:20 - LM4W03 - Finish - NOUPDATES

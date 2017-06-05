@@ -1,0 +1,33 @@
+version: '2'
+
+services:
+
+### MySQL Container #########################################
+
+    mysql:
+        build: ./mysql
+        ports:
+            - "3306:3306"
+        environment:
+            MYSQL_DATABASE: sitemanager
+            MYSQL_USER: bitrix
+            MYSQL_PASSWORD: bitrix
+            MYSQL_ROOT_PASSWORD: root
+
+    wp-web:
+        image: lobsterk/docker-nginx-php-fpm7.0
+        container_name: bitrix-test
+        restart: always
+        ports:
+            - "8110:80"
+        volumes:
+           - ./www/:/var/www/bitrix-test/
+           - ./nginx/conf.d/:/etc/nginx/conf.d/
+           - ./nginx/nginx.conf/:/etc/nginx/nginx.conf/
+           - ./php-fpm/php.ini:/etc/php/7.0/fpm/php.ini
+           - ./php-fpm/php-fpm.conf:/etc/php/7.0/fpm/php-fpm.conf
+        environment:
+          - PROJECT_NAME=bitrix.local
+        depends_on:
+          - mysql
+
